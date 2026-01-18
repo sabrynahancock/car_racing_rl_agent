@@ -1,4 +1,6 @@
-# Developing a Reinforcement Learning Agent for Autonomous Driving
+# Reinforcement Learning Agent for Autonomous Driving
+
+![Agent Driving on Track](https://i.imgur.com/Ul6YFWM.png)
 
 ## 1. Name and Purpose of the Agent
 
@@ -73,6 +75,7 @@ The agent follows the standard reinforcement learning loop. At the start of each
 
 After training, the agent demonstrated improved driving behavior compared to random actions. Early episodes showed frequent off-track behavior, while later evaluations showed smoother steering and longer track traversal. Screenshots captured during evaluation show the agent navigating the track and maintaining forward progress. These results indicate that the agent successfully learned a more effective driving policy through reinforcement learning.
 
+![Training Output](https://i.imgur.com/0M7fwsz.png)
 ---
 
 ## 8. Discussion and Insights
@@ -90,3 +93,4 @@ Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O. (2017). Proxim
 Gymnasium Developers. (n.d.). *CarRacing-v3 environment documentation*. https://gymnasium.farama.org
 
 Stable-Baselines3 Developers. (n.d.). *PPO documentation*. https://stable-baselines3.readthedocs.io
+
